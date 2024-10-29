@@ -31,7 +31,7 @@ df -h | sort -k 3 -hr | awk '{print $1,$2,$3}'
 
 *Напишите конвейер, который использует команды cat, grep, awk, sort и tar для фильтрации строк с ключевым словом в лог-файлах, сортировки и архивации результатов.*
 ```shell
-cat *.log | grep "keyWord" | awk '{print $0}' | sort > logs.txt && tar -czf filtered_logs.tar.gz logs.txt
+cat *.log | grep "b14w4r" | awk '{print $0}' | sort > logs.txt && tar -czf filtered_logs.tar.gz logs.txt
 ```
 ---
 **Часть 2 Пункт 1**
